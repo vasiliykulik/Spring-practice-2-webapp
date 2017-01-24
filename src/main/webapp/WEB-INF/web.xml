@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- был не тот XML, был версии 2.х !!!! - "Была страница не найдена"-->
+<!-- Error 500 - spring- b spring mvc - 425 435 версий-->
+<!-- Версия 8 Spring-->
+<!-- обязательно package - Java это не package-->
+
+<!--
+ Вводим класс Echo
+ делаем bean и
+ http://localhost:8080/ctr/name=hello - вот так не работает
+ http://localhost:8080/ctr/hello - вот так не работает
+
+ а вот так работает
+ http://localhost:8080/ctr/hello?name=hello - так же можем инжектить -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+</web-app>
